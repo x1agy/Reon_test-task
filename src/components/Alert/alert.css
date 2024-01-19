@@ -1,0 +1,9 @@
+.Alert{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    background-color: rgb(230, 104, 104);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    transition: 0.3s;
+}

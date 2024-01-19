@@ -1,0 +1,14 @@
+.Header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+
+.statHolder{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+

@@ -1,0 +1,44 @@
+.AddTaskInput{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s;
+    padding: 10p;
+}
+
+.AddTaskInputHolder{
+    height: 40px;
+}
+
+.AddTaskInput input{
+    width: 100%;
+    height: 100%;
+    opacity: 0%;
+    position: absolute;
+}
+
+.addTaskInput_expandIcon{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.AddTaskInputHolder > button {
+    border: none;
+    border-radius: 10px;
+    margin-left: 45%;
+    height: 30px;
+    background-color: lightgray;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.AddTaskInputHolder > button:active{
+    background-color: white;
+    transition: 0.3s;
+}
